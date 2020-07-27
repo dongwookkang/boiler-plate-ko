@@ -23,7 +23,7 @@ const userSchema = mongoose.Schema({
     },
     image: String,
     token:{
-        type: STring
+        type: String
     },
     tokenExp:{
         type:Number
